@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 100px auto;
+  grid-template-areas:
+    "header header header"
+    "main main sidebar"
+    "footer footer footer";
+}
+
+.item {
+  &-1 {
+    background-color: #999999;
+  }
+
+  &-2 {
+    background-color: #FFE5A0;
+  }
+
+  &-3 {
+    background-color: darkseagreen;
+  }
+
+  &-a {
+    grid-area: header;
+  }
+
+  &-b {
+    grid-area: main;
+  }
+}

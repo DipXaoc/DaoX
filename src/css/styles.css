@@ -1,0 +1,6 @@
+@import "fonts.css";
+.test-fonts {
+    font-family: Fascinate-Regular, sans-serif;
+    font-size: 60px;
+    color: white;
+}
